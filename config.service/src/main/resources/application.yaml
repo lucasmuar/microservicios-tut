@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: multiple-instances2
+          default-label: eureka2
           uri: https://github.com/lucasmuar/microservicios-tut
           search-paths: config-data 
           skip-ssl-validation: true
