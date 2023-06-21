@@ -9,6 +9,6 @@ spring:
           uri: https://github.com/lucasmuar/microservicios-tut
           search-paths: config-data 
           skip-ssl-validation: true
-      allowOverride: true          
+      allowOverride: true           
   application:
     name: config-service
