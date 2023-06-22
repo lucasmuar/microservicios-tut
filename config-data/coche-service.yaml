@@ -1,2 +1,14 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+
+logging:
+  level:
+    com:
+      netflix:
+        eureka: debug
+        discovery: debug
+
 server:
-  port: ${random.int(5000,5100)}
+  port: 0
