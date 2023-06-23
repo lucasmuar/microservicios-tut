@@ -2,13 +2,8 @@ eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
-
-logging:
-  level:
-    com:
-      netflix:
-        eureka: debug
-        discovery: debug
-
 server:
-  port: 0
+  port: ${PORT:0}
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
