@@ -24,7 +24,7 @@ spring:
         - id: coche-service
           uri: lb://coche-service
           predicates:
-            - Path=/coche/**
+            - Path=/car/**
         - id: moto-service
           uri: lb://moto-service
           predicates:
